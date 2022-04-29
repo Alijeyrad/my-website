@@ -31,7 +31,7 @@ function Navbar() {
   }, [pathname]);
   return (
     <ul className="navbar bg-secondary bg-gradient nav d-flex flex-row justify-content-evenly p-3 mb-3">
-      <Link to="/">
+      <Link to="/my-website">
         <li ref={mainRef} className="nav-item me-4">
           <button className="navbtn border-0 bg-secondary text-light" type="button">
             <h5 className="m-0">Main</h5>
