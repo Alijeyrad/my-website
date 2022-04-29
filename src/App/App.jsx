@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Layout>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/my-website">
               <Main />
             </Route>
 

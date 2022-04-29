@@ -8,7 +8,7 @@ function Footer() {
       <div className="opacity-75 me-2 text-center">
         Developed by Ali using React
       </div>
-      <a href="https://github.com/Alijeyrad/my-site" target="_blank" rel="noreferrer">
+      <a href="https://github.com/Alijeyrad/" target="_blank" rel="noreferrer">
         <BsGithub
           style={{
             position: 'absolute',
