@@ -1,3 +1,19 @@
 .image {
   max-width: 550px !important;
 }
+
+.slick-prev:before, .slick-next:before {
+  color: #212529;
+}
+
+.slick-prev, .slick-next {
+  opacity: 0.8;
+}
+
+.slick-prev:hover, .slick-next:hover {
+  opacity: 1;
+}
+
+.slick-dots {
+  margin-bottom: 8px;
+}

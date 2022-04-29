@@ -4,27 +4,27 @@ import Slider from 'react-slick';
 import './SimpleSlider.css';
 
 function SimpleSlider() {
-  const dotSettings = () => (
-    <div
-      style={{
-        width: '15px',
-        height: '7px',
-        backgroundColor: '#495057',
-        border: '1px #495057 solid',
-        borderRadius: '50px',
-      }}
-    />
-  );
+  // const dotSettings = () => (
+  //   <div
+  //     style={{
+  //       width: '15px',
+  //       height: '7px',
+  //       backgroundColor: '#495057',
+  //       border: '1px #495057 solid',
+  //       borderRadius: '50px',
+  //     }}
+  //   />
+  // );
 
   const settings = {
     dots: true,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
     draggable: true,
     infinite: true,
     speed: 800,
-    arrows: false,
-    customPaging: dotSettings,
+    arrows: true,
+    // customPaging: dotSettings,
   };
   return (
     <div className="image">

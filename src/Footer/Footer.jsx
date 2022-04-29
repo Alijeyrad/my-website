@@ -4,7 +4,7 @@ import { SiCodewars } from 'react-icons/si';
 
 function Footer() {
   return (
-    <div className="position-relative ps-3 pb-2 pt-1 border-top d-flex flex-row justify-content-start w-100">
+    <div className="position-relative ps-3 pb-2 pt-1 mt-5 border-top d-flex flex-row justify-content-start w-100">
       <div className="opacity-75 me-2 text-center">
         Developed by Ali using React
       </div>
