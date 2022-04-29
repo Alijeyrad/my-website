@@ -32,17 +32,17 @@ function SimpleSlider() {
       <Slider {...settings}>
         <div className="slide-container">
           <a href="https://alijeyrad.github.io/emoji-search/" target="_blank" rel="noreferrer">
-            <img className="img-fluid img-thumbnail" src="../assets/img/p01.png" alt="emojies" />
+            <img className="img-fluid img-thumbnail" src="https://alijeyrad.github.io/my-website/assets/img/p01.png" alt="emojies" />
           </a>
         </div>
         <div className="slide-container">
           <a href="https://alijeyrad.github.io/movies/" target="_blank" rel="noreferrer">
-            <img className="img-fluid img-thumbnail" src="../../assets/img/p02.png" alt="movies" />
+            <img className="img-fluid img-thumbnail" src="https://alijeyrad.github.io/my-website/assets/img/p02.png" alt="movies" />
           </a>
         </div>
         <div className="slide-container">
           <a href="https://alijeyrad.github.io/quiz-app/" target="_blank" rel="noreferrer">
-            <img className="img-fluid img-thumbnail" src="../../assets/img/p03.png" alt="quiz" />
+            <img className="img-fluid img-thumbnail" src="https://alijeyrad.github.io/my-website/assets/img/p03.png" alt="quiz" />
           </a>
         </div>
       </Slider>

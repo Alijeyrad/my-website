@@ -7,7 +7,6 @@ import Layout from '../Layout/Layout';
 import Contact from '../Contact/Contact';
 import Main from '../Main/Main';
 import About from '../About/About';
-import aboutJSON from './about.json';
 
 function App() {
   return (
@@ -15,17 +14,19 @@ function App() {
       <BrowserRouter>
         <Layout>
           <Switch>
+
             <Route exact path="/my-website">
               <Main />
             </Route>
 
             <Route path="/about">
-              <About about={aboutJSON} />
+              <About />
             </Route>
 
             <Route path="/contact">
               <Contact />
             </Route>
+
           </Switch>
         </Layout>
       </BrowserRouter>

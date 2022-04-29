@@ -10,7 +10,7 @@ function Navbar() {
 
   useEffect(() => {
     switch (pathname) {
-      case '/':
+      case '/my-website':
         mainRef?.current?.classList.add('active');
         aboutRef?.current?.classList.remove('active');
         contactRef?.current?.classList.remove('active');
@@ -29,6 +29,7 @@ function Navbar() {
         break;
     }
   }, [pathname]);
+
   return (
     <ul className="navbar bg-secondary bg-gradient nav d-flex flex-row justify-content-evenly p-3 mb-3">
       <Link to="/my-website">
