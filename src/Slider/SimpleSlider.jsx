@@ -2,20 +2,9 @@
 import React from 'react';
 import Slider from 'react-slick';
 import './SimpleSlider.css';
+import BASE_URL from '../configs/general';
 
 function SimpleSlider() {
-  // const dotSettings = () => (
-  //   <div
-  //     style={{
-  //       width: '15px',
-  //       height: '7px',
-  //       backgroundColor: '#495057',
-  //       border: '1px #495057 solid',
-  //       borderRadius: '50px',
-  //     }}
-  //   />
-  // );
-
   const settings = {
     dots: true,
     autoplay: true,
@@ -24,7 +13,6 @@ function SimpleSlider() {
     infinite: true,
     speed: 800,
     arrows: true,
-    // customPaging: dotSettings,
   };
   return (
     <div className="image">
@@ -32,17 +20,17 @@ function SimpleSlider() {
       <Slider {...settings}>
         <div className="slide-container">
           <a href="https://alijeyrad.github.io/emoji-search/" target="_blank" rel="noreferrer">
-            <img className="img-fluid img-thumbnail" src="https://alijeyrad.github.io/my-website/assets/img/p01.png" alt="emojies" />
+            <img className="img-fluid img-thumbnail" src={`${BASE_URL}/assets/img/p01.png`} alt="emojies" />
           </a>
         </div>
         <div className="slide-container">
           <a href="https://alijeyrad.github.io/movies/" target="_blank" rel="noreferrer">
-            <img className="img-fluid img-thumbnail" src="https://alijeyrad.github.io/my-website/assets/img/p02.png" alt="movies" />
+            <img className="img-fluid img-thumbnail" src={`${BASE_URL}/assets/img/p02.png`} alt="movies" />
           </a>
         </div>
         <div className="slide-container">
           <a href="https://alijeyrad.github.io/quiz-app/" target="_blank" rel="noreferrer">
-            <img className="img-fluid img-thumbnail" src="https://alijeyrad.github.io/my-website/assets/img/p03.png" alt="quiz" />
+            <img className="img-fluid img-thumbnail" src={`${BASE_URL}/assets/img/p03.png`} alt="quiz" />
           </a>
         </div>
       </Slider>
