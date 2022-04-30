@@ -33,6 +33,11 @@ function SimpleSlider() {
             <img className="img-fluid img-thumbnail" src={`${BASE_URL}/assets/img/p03.png`} alt="quiz" />
           </a>
         </div>
+        <div className="slide-container">
+          <a href="https://alijeyrad.github.io/todo/" target="_blank" rel="noreferrer">
+            <img className="img-fluid img-thumbnail" src={`${BASE_URL}/assets/img/p04.png`} alt="quiz" />
+          </a>
+        </div>
       </Slider>
     </div>
   );
