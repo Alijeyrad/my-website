@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Button from '../Button/Button';
 import TextInput from '../TextInput/TextInput';
+import './Contact.css';
 
 function Contact() {
   const [name, setName] = useState('');
@@ -114,6 +115,13 @@ function Contact() {
               style={{ marginTop: '5px' }}
             >
               Submit
+            </Button>
+            <Button
+              style={{ marginLeft: '10px', marginTop: '5px' }}
+            >
+              <a href="mailto:alijeyrad@gmail.com">
+                Send Email
+              </a>
             </Button>
           </>
         )}

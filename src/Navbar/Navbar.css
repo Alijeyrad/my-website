@@ -1,5 +1,5 @@
 button:hover {
-  color: #2c3e50 !important;
+  color: rgb(205, 204, 204) !important;
 }
 
 .navbtn {
@@ -11,5 +11,7 @@ button:hover {
 }
 
 .active:hover {
-  border-bottom: 1px solid #2c3e50;
+  border-bottom: 1px solid rgb(205, 204, 204);
 }
+
+/* #2c3e50 */
